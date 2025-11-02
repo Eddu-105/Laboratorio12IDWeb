@@ -11,5 +11,5 @@ const acumulador = (valorInicial = 0) => {
 
 acum = acumulador(prompt("Ingrese valor inicial:"));
 
-console.log(acum(prompt("Ingrese número que acumula:")));   
-console.log(acum(prompt("Ingrese número que acumula:")));  
+console.log(acum(parseFloat(prompt("Ingrese número que acumula:"))));   
+console.log(acum(parseFloat(prompt("Ingrese número que acumula:"))));  

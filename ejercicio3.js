@@ -3,7 +3,10 @@ let numB = parseInt(prompt("Ingrese segundo número:"));
 
 function esMultiplo(numA, numB) {
     if (numA%numB==0) {
-        return true;
+        return "Es múltiplo";
+    }
+    else {
+        return "No es múltiplo"
     }
 }
 

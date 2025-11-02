@@ -7,4 +7,4 @@ function areaRectangulo (base, altura) {
     return base*altura;
 }
 
-console.log("Área del rectángulo:" + areaRectangulo);
+console.log("Área del rectángulo:" + areaRectangulo(base, altura));

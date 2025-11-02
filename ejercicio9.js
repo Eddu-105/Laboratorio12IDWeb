@@ -1,4 +1,4 @@
-let num = parseFloat(prompt("Ingrese su nombre:"));
+let num = parseFloat(prompt("Ingrese un número:"));
 
 const esPositivo = num => {
     if(num>0){
@@ -6,4 +6,4 @@ const esPositivo = num => {
     }
 }
         
-console.log(esPositivo);
+console.log(esPositivo(num));

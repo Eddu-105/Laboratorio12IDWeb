@@ -16,4 +16,4 @@ const media = (...numeros) => {
     return suma / numeros.length;
 };
 
-console.log("Promedio:", numeros);
+console.log("Promedio:", media(...numeros));
